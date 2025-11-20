@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hazard Hub - Legal & Support</title>
     <style>
+        :root {
+            --hazard-orange: #FF6B00;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
@@ -21,8 +24,8 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #6750A4;
-            border-bottom: 2px solid #6750A4;
+            color: var(--hazard-orange);
+            border-bottom: 2px solid var(--hazard-orange);
             padding-bottom: 10px;
             margin-bottom: 30px;
         }
@@ -43,11 +46,11 @@
             transition: all 0.2s;
         }
         .link-card:hover {
-            background: #6750A4;
+            background: var(--hazard-orange);
             color: white;
-            border-color: #6750A4;
+            border-color: var(--hazard-orange);
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(103, 80, 164, 0.3);
+            box-shadow: 0 4px 12px rgba(255, 107, 0, 0.3);
         }
         .link-card h2 {
             margin: 0 0 8px 0;
